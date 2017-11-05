@@ -1,0 +1,109 @@
+body{
+  font-family:Helvetica, sans-serif;
+  width:100%;
+  height:100%;
+  color:Blue;
+  background-color:black;
+  
+}
+html{
+  width:100%;
+  height:100%;
+}
+p{
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 25px; }
+  @media (min-width: 768px) {
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0 0 35px; }
+}
+
+nav .navbar{
+  color:blue !important;
+  background: gray;
+}
+.btn-circle{
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 38px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  background: transparent; }
+  .btn-circle:focus, .btn-circle:hover {
+    color: white;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+.intro-page{
+  display:table;
+  width:100%;
+  height:auto;
+  padding: 300px 0;
+  text-align: center;
+  background: url("http://media.istockphoto.com/photos/defocused-green-blurred-abstract-background-picture-id508374604?k=6&m=508374604&s=612x612&w=0&h=3e9dw8oyEU7DMqe1MeAliuAsy6Kg9ei6tVhHJAuaKsw=") no-repeat bottom center scroll;
+background-color:black;
+  color:;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+}
+main .intro-page{
+  //display: table-cell;
+  vertical-align:middle;
+}
+main .intro-body .heading{
+  font-size:50px;
+}
+main .intro-body .intro-text{
+  font-size:18px;
+}
+@media (min-width: 768px){
+  main {
+    height:100%;
+  }
+  main .intro-body .intro-text{
+    font-size:22px;
+    
+  }
+  main .intro-body .heading{
+    font-size:100px;
+  } 
+}
+.portfolio{
+  padding:150px 0;
+  text-align:center;
+  
+}
+a img{
+  margin:10px 0;
+  padding: 5px;
+  
+  
+}
+.portfolio{
+ 
+  background:rgb(66,212,244);
+}
+.portfolio h2{
+  padding:20px;
+  border-bottom:5px #111 solid;
+}
+.contact{
+  background:url("https://static3.depositphotos.com/1004899/222/i/950/depositphotos_2226911-stock-photo-blue-feather-abstract-on-paper.jpg");
+}
+.contact{
+  padding-bottom:5rem;
+}
+.footer p{
+  margin-top:40px;
+  margin-bottom:0px;
+}
