@@ -1,23 +1,168 @@
----
-layout: default
----
+<Doctype html>
+    <head lang = en>
+        <title>Title Page</title>
+        <meta name="author" content="Amrit Panesar">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <link type="text/css" href="test.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav class = "navbar navbar-light navbar-expand-md  fixed-top">
+  <div  class="container-fluid">
+  <a class="navbar-brand" href="#main">Amrit Panesar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-control="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse " id="#navbarSupportedContent">
+    <ul class ="navbar-nav ml-auto ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
       </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+     <li class="nav-item ">
+        <a class="nav-link" href="#portfolio"> Portfolio </a>
+      </li>
 
-</div>
+     <li class="nav-item ">
+        <a class="nav-link" href="#contact"> Contact </a>
+      </li>
+      
+
+        </nav>
+    
+    <main class= "main" id="main">
+      <section class="intro-page">
+        <div class= "container">
+          <div class = "row">
+            <div class= "col-lg-8 mx-auto">
+              <h1 class="heading">Welcome</h1> 
+
+        <p class="intro-text"> This is a WebPage build by Amrit for Practice </p>
+              <a href= "#porfolio" class="btn btn-circle ">
+<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+              </a>
+            </div>
+            </div>
+        </div>
+        
+      
+      </section>
+      
+ <!-- portfolio section-->
+      
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-xs-12 col-md-4 col-lg-6  ">
+                  <a href="#" ><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRer2EJMv_hdwfKV-7jE06lAxHZGS3yPrF0lWAgtlmm3x-MBMP6Q"></a>
+                </div>
+              <div class="col-xs-12 col-md-4 col-lg-6">
+                  <a href="#" ><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRer2EJMv_hdwfKV-7jE06lAxHZGS3yPrF0lWAgtlmm3x-MBMP6Q"></a>
+                </div>
+              <div class="col-xs-12 col-md-4 col-lg-6">
+                  <a href="#" ><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRer2EJMv_hdwfKV-7jE06lAxHZGS3yPrF0lWAgtlmm3x-MBMP6Q"></a>
+                </div>
+              <div class="col-xs-12 col-md-4 col-lg-6">
+                  <a href="#" ><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRer2EJMv_hdwfKV-7jE06lAxHZGS3yPrF0lWAgtlmm3x-MBMP6Q"></a>
+                </div>
+              <div class="col-xs-12 col-md-4 col-lg-6">
+                  <a href="#" ><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRer2EJMv_hdwfKV-7jE06lAxHZGS3yPrF0lWAgtlmm3x-MBMP6Q"></a>
+                </div>
+              <div class="col-xs-12 col-md-4 col-lg-6">
+                  <a href="#" ><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRer2EJMv_hdwfKV-7jE06lAxHZGS3yPrF0lWAgtlmm3x-MBMP6Q"></a>
+                </div>
+              <div class="col-xs-12 col-md-4 col-lg-6">
+                  <a href="#" ><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRer2EJMv_hdwfKV-7jE06lAxHZGS3yPrF0lWAgtlmm3x-MBMP6Q"></a>
+                </div>
+              <div class="col-xs-12 col-md-4 col-lg-6">
+                  <a href="#" ><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRer2EJMv_hdwfKV-7jE06lAxHZGS3yPrF0lWAgtlmm3x-MBMP6Q"></a>
+                </div>
+ 
+              
+              </div>
+          </div>
+        </div>
+ 
+      <hr>
+<!-- Contact Details -->
+      <section class="contact" id="contact">      
+      <div class="container">
+                  <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+
+      <div class="row ">
+        <div class="col-xs-12 col-md-6">
+          <div class="form-group row">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="NameOfSender" placeholder="Enter Name" /> 
+          </div>
+
+          <div class="form-group row">
+            <label for="emailofsender">E-mail</label>
+            <input type="email" class="form-control" id="emailofsender" aria-describedby="Email Of Sender" placeholder="Enter E-mail Address" /> 
+          </div>
+          <div class="form-group row">
+            <label for="messageofsender">Message</label>
+            <textarea class="form-control" id="messageofsender" aria-describedby="Message Of Sender" placeholder="Enter Message" ></textarea>
+          </div>      
+          
+          <hr>
+          <button type="submit" class="btn btn-primary" value="Submit">Submit</button>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <p class="text-justify mt-4">Thanks for the visit. If you want to get in touch with me or need any kind of information regarding my profile, experience or resume. Feel Free to drop a message.</p>
+        </div>
+      </div>
+        </section>  
+<!-- About me --> 
+      <section class="about ">  
+        <div class="container-fluid mt-5">
+          <div class="row mt-4">
+            <div class="col-xs-12 col-md-6">
+              <h3 class="mb-3 "> About this Page </h3>
+              <p class="text-center text-justify"> This page is a demo project while working with <a href="https://getbootstrap.com/">Bootstrap V4</a> by <a href="https://codepen.io/AmritPanesar/">Amrit Panesar</a>
+        </div>
+            <div class="col-xs-12 col-md-6">
+              <h3>Find me here </h3>
+              <a href ="https://www.facebook.com/Amrit.Panesar93" class="btn btn-circle ">
+<i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </a>
+              <a href ="https://www.linkedin.com/in/amrit-panesar-86149285/" class="btn btn-circle ">
+<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href ="https://www.freecodecamp.org/haramrit" class="btn btn-circle ">
+<i class="fa fa-free-code-camp" aria-hidden="true"></i>
+              </a>
+              <a href ="#" class="btn btn-circle ">
+<i class="fa fa-codepen" aria-hidden="true"></i>
+              </a>
+             <a href ="https://github.com/haramrit" class="btn btn-circle ">
+<i class="fa fa-github" aria-hidden="true"></i>
+              </a>              
+              
+        </div>
+ 
+            
+            </div>
+          </div>
+        </section>
+         <footer class="footer">
+        <div class="container-fluid">
+        <p>Amrit Panesar &copy. All Right Reserved</p>
+        </div>
+      </footer>
+      </main>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+   
+    </body>
+    
